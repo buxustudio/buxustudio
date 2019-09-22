@@ -1,18 +1,360 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="keywords" content="Game Design">
+  <meta name="description" content="Game Design, Play, APP">
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <title>BUXU STUDIO</title>
+  <link rel="stylesheet" href="./css/layui.css">
+  <link rel="stylesheet" href="./css/global.css">
 </head>
 
-<body>
+<body class="site-home" id="BUXU_home" style="background-color: #eee">
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+  <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+  <!--[if lt IE 9] -->
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+  <!--[endif]-->
+  <!-- 你的HTML代码 -->
+  <!-- header -->
+  <div class="layui-header header header-doc" autumn>
+    <div class="layui-main">
+      <a class="logo" href="/">
+        <img src="./images/logo.png" alt="layui">
+      </a>
+      <ul class="layui-nav" lay-filter="">
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+        <li class="layui-nav-item layui-this"><a href=""><b>Latest Activity</b></a></li>
+        <li class="layui-nav-item layui-hide-sm layui-show-xs">
+          <a href="javascript:;"><b>More</b><span class="layui-nav-more"></span></a>
+          <dl class="layui-nav-child layui-anim layui-anim-upbit">
+            <dd lay-unselect><a href="">Blocks</a></dd>
+            <dd lay-unselect>
+              <hr><a href="">About</a></dd>
+            <dd lay-unselect> <a href="">blogs</a></dd>
+          </dl>
+        </li>
+        <li class="layui-nav-item layui-hide-xs">
+          <a href="javascript:;"><b>Games</b><span class="layui-nav-more"></span></a>
+          <dl class="layui-nav-child layui-anim layui-anim-upbit">
+            <dd lay-unselect><a href="">Blocks</a></dd>
+          </dl>
+        </li>
+        <li class="layui-nav-item layui-hide-xs"><a href=""><b>About</b></a></li>
+        <li class="layui-nav-item layui-hide-xs"><a href=""><b>Blogs</b></a></li>
 
+      </ul>
+    </div>
+  </div>
+  <!-- banner -->
+  <div class="site-banner">
+    <div class="site-banner-main">
+      <div class="layui-carousel" id="lunbo-top">
+        <div carousel-item="">
+          <div style="background-color:#009688">
+            <div class="site-zfj site-zfj-anim">
+              <i class="layui-icon layui-icon-rate 星星-实心 &#xe67a;" style="color: #fff; color: rgba(255,255,255,.7);"></i>
+            </div>
+            <div class="layui-anim site-desc site-desc-anim">
+              <p class="web-font-desc">An interesting puzzle game</p>
+            </div>
+            <br>
+            <br>
+            <a href="" class="layui-btn layui-btn-lg layui-btn-radius layui-btn-normal">Get started for free</a>
+          </div>
+          <div style="background-color:#393D49">
+            <div class="site-zfj site-zfj-anim">
+              <i class="layui-icon layui-icon-rate 星星-实心 &#xe67a;" style="color: #fff; color: rgba(255,255,255,.7);"></i>
+            </div>
+            <div class="layui-anim site-desc site-desc-anim">
+              <p class="web-font-desc">An interesting puzzle game</p>
+            </div>
+            <br>
+            <br>
+            <a href="" class="layui-btn layui-btn-lg layui-btn-radius layui-btn-normal">Get started for free</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- content-->
+
+  <div class="content-introduction-home">
+    <div class="prod-show">
+      <div class="layui-fluid">
+        <div class="row layui-col-space12 layui-clear">
+          <div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
+            <div class="img-txt">
+              <img style="width: 100%;" src="./images/index/sy_img1.jpg" alt="">
+              <h3>Game Page</h3>
+            </div>
+          </div>
+          <div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
+            <div class="img-txt">
+              <img style="width: 100%;" src="./images/index/sy_img1.jpg" alt="">
+              <h3>Game Page</h3>
+            </div>
+          </div>
+          <div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
+            <div class="img-txt">
+              <img style="width: 100%;" src="./images/index/sy_img1.jpg" alt="">
+              <h3>Game Page</h3>
+            </div>
+          </div>
+          <div class="layui-col-xs6 layui-col-sm6 layui-col-md3">
+            <div class="img-txt">
+              <img style="width: 100%;" src="./images/index/sy_img1.jpg" alt="">
+              <h3>Game Page</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- miaoshu-->
+  <div class="layui-main">
+    <div class="prod-descr">
+      <div class="layui-fluid">
+        <div class="layui-row">
+          <div class="item layui-clear">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md6">
+              <img src="./images/index/sy_img5.jpg" class="left-img">
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md6">
+              <div class="text">
+                <h3>Excellent design aesthetics</h3>
+                <p>We design interesting games for you</p>
+                <br>
+                <a href="">To view more ></a>
+              </div>
+              <br>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm12 layui-col-md8 bot-img-box">
+              <div class="bot-img">
+                <img src="./images/index/sy_img6.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -->
+  <div class="content-introduction-home">
+    <div class="content-introduction">
+      <div class="layui-fluid">
+        <div class="layui-row">
+          <div class="layui-col-xs12 layui-col-sm12 layui-col-md6">
+            <div class="text">
+              <h2>Our services</h2>
+              <div class="line"></div>
+              <p>Thousands of cities from home, Wander into the unknown, Chances are here I was told, Crossing the footsteps of new and of old ,Recurring smiles in the air, Sky blue and life full of cheer, Stories of people unfold, And all we'd
+                imagined is here </p>
+            </div>
+          </div>
+          <div class="layui-col-xs12 layui-col-sm12 layui-col-md6">
+            <div class="img-text-box layui-clear">
+              <div class="layui-row">
+                <div class="layui-col-xs6 layui-col-sm3 layui-col-md6">
+                  <div class="item">
+                    <img src="./images/index/fw_icon1.png" alt="">
+                    <h5>Game design</h5>
+                  </div>
+                </div>
+                <div class="layui-col-xs6 layui-col-sm3 layui-col-md6">
+                  <div class="item">
+                    <img src="./images/index/fw_icon1.png" alt="">
+                    <h5>APP design</h5>
+                  </div>
+                </div>
+                <div class="layui-col-xs6 layui-col-sm3 layui-col-md6">
+                  <div class="item">
+                    <img src="./images/index/fw_icon1.png" alt="">
+                    <h5>Game to achieve</h5>
+                  </div>
+                </div>
+                <div class="layui-col-xs6 layui-col-sm3 layui-col-md6">
+                  <div class="item">
+                    <img src="./images/index/fw_icon1.png" alt="">
+                    <h5>The finished production</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 流程-->
+  <div class="layui-main">
+    <div class="service-process">
+      <div class="layui-fluid">
+        <h3 class="title">The finished product process</h3>
+        <div class="process-centent">
+          <div class="layui-row layui-col-space15">
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md3">
+              <div class="item">
+                <h4>01</h4>
+                <h5>Demand for communication</h5>
+                <p>Communicate with customers to better understand their product requirements, which will be of greater help to product molding.</p>
+              </div>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md3">
+              <div class="item">
+                <h4>02</h4>
+                <h5>Design a version </h5>
+                <p>Communicate with customers to better understand their product requirements, which will be of greater help to product molding.</p>
+              </div>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md3">
+              <div class="item">
+                <h4>03</h4>
+                <h5>The finished production</h5>
+                <p>Communicate with customers to better understand their product requirements, which will be of greater help to product molding</p>
+              </div>
+            </div>
+            <div class="layui-col-xs12 layui-col-sm6 layui-col-md3">
+              <div class="item">
+                <h4>04</h4>
+                <h5>The finished production</h5>
+                <p>Communicate with customers to better understand their product requirements, which will be of greater help to product molding</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -->
+
+  <!-- time line -->
+  <div class="tabCour-home">
+    <div class="layui-container">
+      <div class="layui-row">
+        <div class="tabCour">
+          <p class="title">Our metamorphosis</p>
+          <ul class="timeline">
+            <li class="odd">
+              <div class="cour-img"><img src="./images/index/us_img5.png"></div>
+              <div class="cour-panel layui-col-sm4 layui-col-lg5">
+                <p class="label">In September 2019</p>
+                <p> Chances are here I was told, Crossing the footsteps of new and of old</p>
+              </div>
+            </li>
+            <li>
+              <div class="cour-img"><img src="./images/index/us_img5.png"></div>
+              <div class="cour-panel layui-col-sm4 layui-col-sm-offset8 layui-col-lg5 layui-col-lg-offset7">
+                <p class="label">In September 2019</p>
+                <p> Chances are here I was told, Crossing the footsteps of new and of old</p>
+              </div>
+            </li>
+            <li class="odd">
+              <div class="cour-img"><img src="./images/index/us_img5.png"></div>
+              <div class="cour-panel layui-col-sm4 layui-col-lg5">
+                <p class="label">In September 2019</p>
+                <p> Chances are here I was told, Crossing the footsteps of new and of old</p>
+              </div>
+            </li>
+            <li>
+              <div class="cour-img"><img src="./images/index/us_img5.png"></div>
+              <div class="cour-panel layui-col-sm4 layui-col-sm-offset8 layui-col-lg5 layui-col-lg-offset7">
+                <p class="label">In September 2019</p>
+                <p> Chances are here I was told, Crossing the footsteps of new and of old</p>
+              </div>
+            </li>
+            <li class="odd">
+              <div class="cour-img"><img src="./images/index/us_img8.png"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- main-->
+
+
+  <div class="layui-footer footer footer-index" style="background-color:#c2c2c2">
+    <div class="layui-main">
+      <p>© 2019 <a href="/">buxu.cc</a> Mr.BUXU</p>
+      <p>
+        <a href="" target="_blank">Case</a>
+        <a href="" target="_blank">Support</a>
+        <!--<a href="javascript:;" site-event="contactInfo">联系</a>-->
+        <a href="" target="_blank" rel="nofollow">GitHub</a>
+        <a href="" target="_blank" class="layui-hide-xs">WX</a>
+      </p>
+      <div class="site-union">
+        <p class="site-union-desc">
+          <span>
+            Thanks to the following platforms for cloud support
+          </span>
+        </p>
+        <p>
+          <a href="" target="_blank" rel="nofollow" sponsor="upyun">
+            <img src="./images/logo.png">
+          </a>
+          <a href="" target="_blank" rel="nofollow" sponsor="maoyun">
+            <img src="./images/logo.png">
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <ul class="layui-fixbar" lay-filter="">
+    <li class="layui-icon" lay-type="bar1" style=""></li>
+    <li class="layui-icon layui-fixbar-top" lay-type="top" style="display: list-item;"></li>
+  </ul>
+  <div class="layui-layer-move"></div> -->
+
+  <script src="./layui.js"></script>
+  <script>
+    layui.use(['layer', 'carousel', 'element', 'util'], function() {
+      var layer = layui.layer //弹层
+        ,carousel = layui.carousel //轮播
+        ,element = layui.element //元素操作
+        ,util = layui.util; //滑块
+
+      //向世界问个好
+      layer.msg('Hello my dear friend');
+
+      //设定各种参数
+      var ins3 = carousel.render({
+        elem: '#test3',
+        autoplay: true
+      });
+      //图片轮播
+      carousel.render({
+        elem: '#lunbo-top',
+        width: '100%',
+        height: '100%',
+        interval: 5000,
+        autoplay: true
+      });
+
+      //执行
+      //执行
+      util.fixbar({
+        bar1: true,
+        click: function(type) {
+          console.log(type);
+          if (type === 'bar2') {
+            // document.body.scrollTop = 0
+          }
+        }
+      });
+
+    });
+  </script>
 </body>
+
 </html>
